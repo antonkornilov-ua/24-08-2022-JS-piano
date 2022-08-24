@@ -5,12 +5,13 @@ body {
     justify-content: center;
     height: 100vh;
     align-items: center;
+    background: rgb(156, 155, 155);
 }
 
 #piano {
     height: 290px;
     padding: 90px 30px 0 30px;
-    background-color: #665b5b;
+    background-color: brown;
     border-radius: 10px;
 }
 
@@ -75,4 +76,10 @@ body {
 }
 .black-key:nth-child(10) {
     left: 865px;
+}
+.black-key:active {
+    transform: translateY(2px)
+}
+.white-key:active {
+box-shadow: 20px 0 gray;
 }
